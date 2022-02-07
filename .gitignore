@@ -1,0 +1,9 @@
+# Ignora la carpeta .venv
+.env
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Datasets
+
+# Ignorar carpetas de datos
