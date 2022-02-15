@@ -1,3 +1,3 @@
 git add *
-git commit -m "EDA 1"
+git commit -m "EDA graficos"
 git push origin master
