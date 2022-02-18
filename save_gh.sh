@@ -1,3 +1,3 @@
 git add *
-git commit -m "EDA graficos"
+git commit -m "Load Historico"
 git push origin master
