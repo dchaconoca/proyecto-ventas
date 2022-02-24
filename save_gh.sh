@@ -1,3 +1,3 @@
 git add *
-git commit -m "Load Historico"
+git commit -m "Estudio Serie Temporal"
 git push origin master
