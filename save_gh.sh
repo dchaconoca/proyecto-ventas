@@ -1,3 +1,3 @@
 git add *
-git commit -m "Estudio Serie Temporal"
+git commit -m "Documentacion"
 git push origin master

@@ -1,6 +1,7 @@
-# Estudio de los datos de Ventas de una Ferretería
+# Estudio de las Ventas de una Ferretería
+## NB1: Carga y limpieza de los Datos
 
-Autor: Diana Chacón Ocariz
+>Autor: Diana Chacón Ocariz
 
 ## Contexto:
 
@@ -11,18 +12,34 @@ Se trata de una pequeña ferretería que maneja un poco más de 3.000 productos 
 
 **Tener más visibilidad sobre las ventas para poder mejorar el proceso de compras y la toma de decisiones en general:** 
 
-    - Poder analizar objetivamente las ventas
-    - Determinar los productos que podrían entrar en rotura de stock al final de un período
-    - Identificar los productos menos vendidos
+    - Analizar objetivamente las ventas.
+    - Identificar los productos más vendidos y que no pueden faltar.
+    - Identificar los productos menos vendidos.
+    - Determinar los productos que podrían entrar en rotura de stock al final de un período.
+    - Predecir las ventas futuras.
     
 
 ## Objetivos académicos:
 
-    - Estudiar un caso real, con datos reales y cuyo resultado pueda ayudar a alguien a resolver un problema. 
-    - Demostrar que la ciencia de datos también puede ayudar a las PYMES
+    - Estudiar un caso real, con datos reales y cuyo resultado pueda ayudar a alguien a resolver un problema 
+    - Demostrar que la ciencia de datos puede ayudar a cualquier empresa, incluso PYMES
     - Conocer y practicar el uso de herramientas de ciencia de datos
+    
     
 ## Fuentes de datos:
 
-Los datos provienen de reportes sacados del software de gestión de la empresa. Se trata de archivos .xls que contienen sólo los datos de reportes sobre facturas (2021 y 2022), ventas por producto (2021 y 2022) e inventario (2020, 2021 y 2022).
+Los datos provienen de reportes sacados del software de gestión de la empresa. Se trata de archivos .xls que contienen sólo los datos de reportes sobre facturas (2020), ventas por producto (2021 y 2022) e inventario a la fecha.
+
+También se utilizan los datos del [histórico de la tasa de cambio del dólar](https://monitordolarvenezuela.com/historial#2a) que se obtiene a través de un scraper.
+
+
+## Notebooks del Estudio
+
+1. [NB1: Carga y limpieza de los Datos](https://github.com/dchaconoca/proyecto-ventas/blob/master/NB1_analisis_ventas_load.ipynb)
+1. [NB2: EDA y Visualización de los Datos](https://github.com/dchaconoca/proyecto-ventas/blob/master/NB2_analisis_ventas_eda.ipynb)
+1. [NB3: Reporte Análisis de Ventas](https://github.com/dchaconoca/proyecto-ventas/blob/master/NB3_analisis_ventas_reporte.ipynb)
+1. [NB4: Predicción de Ventas - Estudio de una Serie Temporal](https://github.com/dchaconoca/proyecto-ventas/blob/master/NB4_prediccion_ventas.ipynb)
+1. [NB5: Scraper Tasa de Cambio Dólar](#carga-librerias)
+
+## Reporte de Análisis de Ventas
     
