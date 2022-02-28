@@ -33,13 +33,21 @@ Los datos provienen de reportes sacados del software de gestión de la empresa. 
 También se utilizan los datos del [histórico de la tasa de cambio del dólar](https://monitordolarvenezuela.com/historial#2a) que se obtiene a través de un scraper.
 
 
-## Notebooks del Estudio
+## Notebooks del Estudio:
 
 1. [NB1: Carga y limpieza de los Datos](https://github.com/dchaconoca/proyecto-ventas/blob/master/NB1_analisis_ventas_load.ipynb)
 1. [NB2: EDA y Visualización de los Datos](https://github.com/dchaconoca/proyecto-ventas/blob/master/NB2_analisis_ventas_eda.ipynb)
 1. [NB3: Reporte Análisis de Ventas](https://github.com/dchaconoca/proyecto-ventas/blob/master/NB3_analisis_ventas_reporte.ipynb)
 1. [NB4: Predicción de Ventas - Estudio de una Serie Temporal](https://github.com/dchaconoca/proyecto-ventas/blob/master/NB4_prediccion_ventas.ipynb)
-1. [NB5: Scraper Tasa de Cambio Dólar](#carga-librerias)
+1. [NB5: Scraper Tasa de Cambio Dólar](https://github.com/dchaconoca/proyecto-ventas/blob/master/NB5_scraper_tasa_dolar.ipynb)
 
-## Reporte de Análisis de Ventas
+
+## Reporte de Análisis de Ventas:
+
+1. [PDF del Reporte obtenido con el NB3]()
+1. [Reporte en Google Data Studio]()
+
+## Instrucciones para la ejecución del proyecto:
+
+1. Debe ejecutarse primero el NB1 que 
     
