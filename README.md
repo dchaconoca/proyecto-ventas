@@ -53,6 +53,6 @@ También se utilizan los datos del [histórico de la tasa de cambio del dólar](
 ## Instrucciones para la ejecución del proyecto:
 
 1. Debe ejecutarse primero el NB1 que se encarga de cargar los datos brutos (raw). Los archivos con los datos se encuentran en el subdirectorio **datos/in**
-2. En el mismo directorio, también se encuentra el archivo **tasa_dolar.csv** que contiene el histórico de las tasas de cambio del día hasta el 01/03/2022. Si este archivo no está presente, puede ejecutarse el NB5
+2. En el mismo subdirectorio, también se encuentra el archivo **tasa_dolar.csv** que contiene el histórico de las tasas de cambio del día hasta el 01/03/2022. Si este archivo no está presente, puede ejecutarse el NB5
 3. Una vez ejecutado el NB1, obtendremos en el subdirectorio **datos/out** todos los archivos con los datos necesarios para la ejecución de los notebooks NB2, NB3 y NB4. La ejecución de cada notebook es independiente
     
