@@ -1,11 +1,14 @@
 # Estudio de las Ventas de una Ferretería
-## NB1: Carga y limpieza de los Datos
 
 >Autor: Diana Chacón Ocariz
 
 ## Contexto:
 
-Se trata de una pequeña ferretería que maneja un poco más de 3.000 productos distintos. Poseen un software de gestión genérico que les provee una gran cantidad de reportes, básicamente tablas con números, díficiles de analizar (un reporte puede constar de varias decenas de páginas).
+Se trata de estudiar las ventas de una pequeña ferretería a partir del 01/01/2020.
+
+Esta empresa maneja un poco más de 3.000 productos distintos. Poseen un software de gestión genérico que les provee una gran cantidad de reportes, básicamente tablas con números, díficiles de analizar (un reporte puede constar de varias decenas de páginas).
+
+Por otro lado, los montos manejados están en Bs (Bolívares, moneda nacional venezolana). Durante el período de estudio, las grandes tasas de inflación, además de un cambio de moneda (eliminación de 6 ceros), dificultan el análisis. Por eso ha sido necesario transformar los montos a dólares según la tasa del día.
 
 
 ## Objetivos del negocio:
@@ -49,5 +52,7 @@ También se utilizan los datos del [histórico de la tasa de cambio del dólar](
 
 ## Instrucciones para la ejecución del proyecto:
 
-1. Debe ejecutarse primero el NB1 que 
+1. Debe ejecutarse primero el NB1 que se encarga de cargar los datos brutos (raw). Los archivos con los datos se encuentran en el subdirectorio **datos/in**
+2. En el mismo directorio, también se encuentra el archivo **tasa_dolar.csv** que contiene el histórico de las tasas de cambio del día hasta el 01/03/2022. Si este archivo no está presente, puede ejecutarse el NB5
+3. Una vez ejecutado el NB1, obtendremos en el subdirectorio **datos/out** todos los archivos con los datos necesarios para la ejecución de los notebooks NB2, NB3 y NB4. La ejecución de cada notebook es independiente
     
