@@ -1,3 +1,3 @@
 git add *
-git commit -m "Documentacion"
+git commit -m "Visuualizacion"
 git push origin master
