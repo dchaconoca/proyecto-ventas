@@ -32,7 +32,7 @@ Por otro lado, los montos manejados están en Bs (Bolívares, moneda nacional ve
 
 Los datos provienen de reportes sacados del software de gestión de la empresa. Se trata de archivos .xls que contienen sólo los datos de reportes sobre facturas (2020), ventas por producto (2021 y 2022) e inventario a la fecha.
 
-También se utilizan los datos del [histórico de la tasa de cambio del dólar](https://monitordolarvenezuela.com/historial#2a) que se obtiene a través de un scraper.
+También se utilizan los datos del [histórico de la tasa de cambio del dólar](https://monitordolarvenezuela.com/historial#2a) que se obtiene a través de un [scraper](https://github.com/dchaconoca/proyecto-ventas/blob/master/NB5_scraper_tasa_dolar.ipynb).
 
 Más detalles de los archivos utilizados, en el [NB1: Carga y limpieza de los Datos](https://github.com/dchaconoca/proyecto-ventas/blob/master/NB1_analisis_ventas_load.ipynb)
 
