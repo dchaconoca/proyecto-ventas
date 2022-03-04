@@ -16,17 +16,16 @@ Por otro lado, los montos manejados están en Bs (Bolívares, moneda nacional ve
 **Tener más visibilidad sobre las ventas para poder mejorar el proceso de compras y la toma de decisiones en general:** 
 
     - Analizar objetivamente las ventas.
-    - Identificar los productos más vendidos y que no pueden faltar.
-    - Identificar los productos menos vendidos.
+    - Identificar los productos más vendidos y que no pueden faltar (productos indispensables).
     - Determinar los productos que podrían entrar en rotura de stock al final de un período.
     - Predecir las ventas futuras.
     
 
 ## Objetivos académicos:
 
-    - Estudiar un caso real, con datos reales y cuyo resultado pueda ayudar a alguien a resolver un problema 
-    - Demostrar que la ciencia de datos puede ayudar a cualquier empresa, incluso PYMES
-    - Conocer y practicar el uso de herramientas de ciencia de datos
+    - Estudiar un caso real, con datos reales y cuyo resultado pueda ayudar a alguien a resolver un problema. 
+    - Demostrar que la ciencia de datos puede ayudar a cualquier empresa, incluso PYMES.
+    - Conocer y practicar el uso de herramientas de ciencia de datos.
     
     
 ## Fuentes de datos:
@@ -34,6 +33,8 @@ Por otro lado, los montos manejados están en Bs (Bolívares, moneda nacional ve
 Los datos provienen de reportes sacados del software de gestión de la empresa. Se trata de archivos .xls que contienen sólo los datos de reportes sobre facturas (2020), ventas por producto (2021 y 2022) e inventario a la fecha.
 
 También se utilizan los datos del [histórico de la tasa de cambio del dólar](https://monitordolarvenezuela.com/historial#2a) que se obtiene a través de un scraper.
+
+Más detalles de los archivos utilizados, en el [NB1: Carga y limpieza de los Datos](https://github.com/dchaconoca/proyecto-ventas/blob/master/NB1_analisis_ventas_load.ipynb)
 
 
 ## Notebooks del Estudio:
@@ -47,7 +48,6 @@ También se utilizan los datos del [histórico de la tasa de cambio del dólar](
 
 ## Reporte de Análisis de Ventas:
 
-1. [PDF del Reporte obtenido con el NB3]()
 1. [Reporte en Google Data Studio]()
 
 ## Instrucciones para la ejecución del proyecto:
