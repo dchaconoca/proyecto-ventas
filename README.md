@@ -48,7 +48,7 @@ Más detalles de los archivos utilizados, en el [NB1: Carga y limpieza de los Da
 
 ## Reporte de Análisis de Ventas:
 
-1. [Reporte en Google Data Studio]()
+1. [Reporte en Google Data Studio](https://datastudio.google.com/reporting/a4e9910d-447d-417a-80a9-a1e5ae4a4b22)
 
 ## Instrucciones para la ejecución del proyecto:
 
