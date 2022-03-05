@@ -1,3 +1,3 @@
 git add *
-git commit -m "Detalles graficos"
+git commit -m "Entrega Proyecto"
 git push origin master
