@@ -1,3 +1,3 @@
 git add *
-git commit -m "Continuacion EDA datos fin febrero"
+git commit -m "Detalles graficos"
 git push origin master
